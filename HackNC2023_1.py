@@ -72,7 +72,7 @@ if selected_item == "Patient Care":
         occurence_urgency[i] += 1
 
 if selected_item == "Procedure":
-    prop: list = ["Inncorrect Sutturing", "No Patient Check-in", "Incorrect Surgical Prodecure"]
+    prop: list = ["Incorrect Sutturing", "No Patient Check-in", "Incorrect Surgical Prodecure"]
     prop_1 = input(f"Which of the following occured?:{prop} ")
     for i in range (0, len(prop)):
         if prop_1 == prop[i]:
@@ -86,7 +86,7 @@ if selected_item == "Procedure":
         occurence_urgency[i] += 1
 
 if selected_item == "Infection":
-    infection: list = ["Inncorrect IV setup", "Unsanitary Tools Used", "Internal Infection"]
+    infection: list = ["Incorrect IV setup", "Unsanitary Tools Used", "Internal Infection"]
     infection_1 = input(f"Which of the following occured?:{infection} ")
     for i in range (0, len(infection)):
         if infection_1 == infection[i]:
@@ -135,8 +135,8 @@ time_day: list = ["Morning", "Afternoon", "Evening", "Night"]
 diagnos: list = ["Incorrect Diagnosis", "Refusal to Give Diagnosis"]
 occur: list = ["Wrong Medication Prescribed" , "Wrong Medication Given", "Wrong Dose Given"]
 care: list = ["Lack of Attention to Patient", "Internal Injury", "External Injury" ]
-prop: list = ["Inncorrect Sutturing", "No Patient Check-in", "Incorrect Surgical Prodecure"]
-infection: list = ["Inncorrect IV setup", "Unsanitary Tools Used", "Internal Infection"]
+prop: list = ["Incorrect Sutturing", "No Patient Check-in", "Incorrect Surgical Prodecure"]
+infection: list = ["Incorrect IV setup", "Unsanitary Tools Used", "Internal Infection"]
 
 for i in range (0, len(total_practice)):
     for j in range (0, len(random_occurence_med_list)):
